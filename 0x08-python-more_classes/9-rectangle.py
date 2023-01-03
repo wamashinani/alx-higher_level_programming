@@ -170,4 +170,7 @@ class Rectangle:
         """Returns an instance with equal sides of length `size`.
         Args:
             size (int): length of sides of square, defaults to 0.
-
+        Returns:
+            new instance of class with equal sides
+        """
+        return cls(size, size)
