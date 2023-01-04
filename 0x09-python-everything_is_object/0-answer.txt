@@ -1,4 +1,1 @@
-1 lines (1 sloc)  5 Bytes
-
 type
-
