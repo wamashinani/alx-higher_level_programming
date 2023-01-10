@@ -1,6 +1,12 @@
 #!/usr/bin/python3
-number_of_lines = __import__('1-number_of_lines').number_of_lines
+# 1-number_of_lines.py
+"""Defines a text file line-counting function."""
 
-filename = "my_file_0.txt"
-nb_lines = number_of_lines(filename)
-print("{} has {:d} lines".format(filename, nb_lines))
+
+def number_of_lines(filename=""):
+    """Return the number of lines in a text file."""
+    lines = 0
+    with open(filename) as f:
+        for line in f:
+            lines += 1
+    return linesi
